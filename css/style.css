@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightgrey;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .container {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1075px;
+  background-color: white;
+  width: 100%;
+  height: 1000px;
+  margin: 25px auto;
+}
+/*# sourceMappingURL=style.css.map */
