@@ -14,4 +14,24 @@ body .mainContent {
   height: 1000px;
   margin: 25px auto;
 }
+
+body .mainContent .header-date {
+  border-bottom: 1px solid black;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: right;
+  padding: 10px 0 0;
+  width: 90%;
+  margin: auto;
+}
+
+body .mainContent .header-content {
+  background-color: #fff;
+  padding: 0;
+}
+
+body .mainContent .header-content .header-box {
+  background-color: blue;
+  height: 100px;
+}
 /*# sourceMappingURL=style.css.map */
