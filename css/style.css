@@ -11,8 +11,10 @@ body .mainContent {
   max-width: 1075px;
   background-color: white;
   width: 100%;
-  height: 1000px;
   margin: 25px auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 25px;
 }
 
 body .mainContent .header-date {
@@ -21,17 +23,44 @@ body .mainContent .header-date {
   font-weight: 400;
   text-align: right;
   padding: 10px 0 0;
-  width: 90%;
   margin: auto;
 }
 
 body .mainContent .header-content {
   background-color: #fff;
-  padding: 0;
+  padding: 10px 0 0;
+}
+
+body .mainContent .header-content h1 {
+  color: red;
+  width: 100%;
+  font-size: 36px;
+  font-weight: 700;
+  max-width: 540px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+body .mainContent .header-content .header-img {
+  height: 150px;
+  width: 200px;
 }
 
 body .mainContent .header-content .header-box {
-  background-color: blue;
-  height: 100px;
+  background-color: #3f3f90;
+}
+
+body .mainContent .header-content .header-box ul {
+  list-style: none;
+  margin: 0;
+}
+
+body .mainContent .header-content .header-box ul li {
+  display: inline-block;
+  margin: 10px 35px;
+}
+
+body .mainContent nav {
+  border-bottom: 2px solid #555353;
 }
 /*# sourceMappingURL=style.css.map */
