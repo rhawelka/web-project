@@ -88,4 +88,23 @@ body .mainContent nav ul li a:hover {
   background-color: #dbcccc;
   border-radius: 15px;
 }
+
+body .mainContent section .img2 {
+  max-width: 230px;
+  width: 100%;
+  float: left;
+  margin: 0 25px 25px 0;
+}
+
+body .mainContent section .img3 {
+  width: 100%;
+  margin: 0 25px 25px 0;
+}
+
+body .mainContent section .clickMe {
+  color: blue;
+  font-size: 25px;
+  text-decoration: underline;
+  font-weight: 700;
+}
 /*# sourceMappingURL=style.css.map */
