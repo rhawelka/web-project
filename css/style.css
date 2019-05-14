@@ -5,6 +5,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body .mainContent {
@@ -12,8 +14,6 @@ body .mainContent {
   background-color: white;
   width: 100%;
   margin: 25px auto;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   padding: 0 25px;
 }
 
@@ -113,5 +113,35 @@ body .mainContent aside #widget .aw-six-hours,
 body .mainContent aside #widget .aw-more-sep-2,
 body .mainContent aside #widget .aw-more-block {
   display: none !important;
+}
+
+body .mainContent aside .sidebar-list {
+  padding-top: 4vh;
+}
+
+body .mainContent aside .sidebar-list h5 {
+  background-color: lightgray;
+  text-align: center;
+  padding: 10px;
+}
+
+body .mainContent aside .sidebar-list ul li {
+  border: none;
+  margin: 5px 0;
+  cursor: pointer;
+  padding: 0;
+}
+
+body .mainContent aside .sidebar-list ul li img {
+  float: left;
+  margin: 1vh;
+}
+
+body .mainContent aside .sidebar-list ul li p {
+  margin-top: 20px;
+}
+
+body .mainContent aside .sidebar-img {
+  background-image: url("images/sidebar/prolesanpure_small.png");
 }
 /*# sourceMappingURL=style.css.map */
