@@ -107,4 +107,11 @@ body .mainContent section .clickMe {
   text-decoration: underline;
   font-weight: 700;
 }
+
+body .mainContent aside #widget .aw-fc-status,
+body .mainContent aside #widget .aw-six-hours,
+body .mainContent aside #widget .aw-more-sep-2,
+body .mainContent aside #widget .aw-more-block {
+  display: none !important;
+}
 /*# sourceMappingURL=style.css.map */
