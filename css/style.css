@@ -192,4 +192,35 @@ body .mainContent aside .sidebar-img .sidebar-button:active {
   position: relative;
   top: 1px;
 }
+
+body .mainContent footer {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body .mainContent footer .comments-list {
+  margin-bottom: 0;
+}
+
+body .mainContent footer .comments-list h2 {
+  font-weight: 800;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+body .mainContent footer .comments-list .list-group a {
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  margin-bottom: 5vh;
+}
+
+body .mainContent footer .comments-list .list-group a h5 {
+  font-weight: bold;
+  color: black;
+  font-style: italic;
+}
+
+body .mainContent footer .comments-list .list-group a img {
+  float: left;
+  padding: 15px;
+}
 /*# sourceMappingURL=style.css.map */
